@@ -1,0 +1,17 @@
+#LCM of two numbers
+ 
+  a=float(input ("enter first number":))
+  b=float(input("enter secound number":))
+
+if (a>b)
+    greater =a
+else:
+   greater =b
+
+while(true):
+     if((greater % a==0) and (greater % b ==0)):
+       lcm=greater
+      break
+    greater +=1
+
+print("the LCM is",lcm)

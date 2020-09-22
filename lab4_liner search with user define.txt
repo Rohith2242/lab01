@@ -1,0 +1,12 @@
+# Linear search of an array using dynamical input
+n=int(input())
+ary=[]
+print("enter the elements:")
+for i in range(n):
+    a=int(input())
+    ary.append(a)
+s=int(input("enter an ele to search:"))
+l=len(ary)
+for i in range(l):
+    if(ary[i]==s):
+        print("ele found in",i)
